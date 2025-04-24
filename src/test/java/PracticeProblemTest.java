@@ -243,6 +243,7 @@ public class PracticeProblemTest {
         }
     }
 
+    @Test
     public void testChairSingleArgConstructor2() {
         try {
             Class<?> chairClass = Class.forName("Chair");
